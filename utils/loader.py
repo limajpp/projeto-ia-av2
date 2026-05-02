@@ -29,7 +29,11 @@ def load_local_arff(filepath):
     csv_reader = csv.reader(data_lines)
     
     final_matrix = []
+    expected_cols = len(headers)
+    
     for row in csv_reader:
+        if len(row) != expected_cols:
+            continue
         converted_row = []
         for item in row:
             item = item.strip()
