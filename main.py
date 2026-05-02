@@ -1,7 +1,7 @@
 import numpy as np
 from utils.loader import load_local_arff
 from utils.encoder import label_encode_column, impute_and_clean_matrix
-from utils.validator import k_fold_split
+from utils.splitter import k_fold_split
 
 if __name__ == "__main__":
      # WARNING: Make sure you download the files and place them in the same folder as this script, or update these paths!
