@@ -1,4 +1,4 @@
-# 🧠 Projeto IA (AV2) - Algoritmos de Machine Learning do Zero
+# 🧠 Descrição e Configuração do Ambiente
 
 Este projeto é uma avaliação da disciplina de Inteligência Artificial Computacional. O objetivo foi implementar do absoluto zero (utilizando apenas a matemática vetorial do **NumPy**) algoritmos clássicos de Machine Learning para tarefas de **Classificação** e **Regressão**.
 
