@@ -2,7 +2,7 @@ import numpy as np
 import csv
 
 def load_local_arff(filepath):
-    print(f"loading ARFF file from: {filepath}")
+    print(f"Carregando dataset com path: {filepath}")
     
     with open(filepath, 'r', encoding='utf-8') as file:
         lines = file.readlines()

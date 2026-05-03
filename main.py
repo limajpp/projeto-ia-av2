@@ -17,7 +17,7 @@ if __name__ == "__main__":
     K_FOLDS = 5
 
     print("="*60)
-    print("--- FASE 2: CLASSIFICAÇÃO (Student Dropout) ---")
+    print("CLASSIFICAÇÃO (Students Dropout And Academic Success Dataset)")
     print("="*60)
     
     try:
@@ -129,7 +129,7 @@ if __name__ == "__main__":
         print(f"ERRO NA CLASSIFICAÇÃO: {e}")
 
     print("="*60)
-    print("--- FASE 3: REGRESSÃO (Anime Ratings) ---")
+    print("REGRESSÃO (Anime Dataset)")
     print("="*60)
     
     try:
@@ -201,7 +201,4 @@ if __name__ == "__main__":
 
     except Exception as e:
         print(f"ERRO NA REGRESSÃO: {e}")
-
-    print("="*60)
-    print("Testes finalizados com sucesso! Pronto para a apresentação.")
 
